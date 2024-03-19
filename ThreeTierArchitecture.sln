@@ -3,9 +3,54 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayer", "DataLayer", "{53D3BC53-5C46-429B-994A-3765B2493E58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeTierArchitecture.Presentation", "ThreeTierArchitecture.Presentation\ThreeTierArchitecture.Presentation.csproj", "{E6275E5A-C9A8-4870-BEA9-F4600338BECF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B2801CF9-3BE7-431F-94B4-CE090D72FC3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeTierArchitecture.Application", "ThreeTierArchitecture.Application\ThreeTierArchitecture.Application.csproj", "{C798DC16-F49E-4F12-B4ED-26B93B459C3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{6A4F2000-6582-4B4A-A69A-C6B1E79EACF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeTierArchitecture.DataStore", "ThreeTierArchitecture.DataStore\ThreeTierArchitecture.DataStore.csproj", "{2955E47C-B919-4C09-976B-BE5E0CA22535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeTierArchitecture.DataAccessLayer", "ThreeTierArchitecture.DataAccessLayer\ThreeTierArchitecture.DataAccessLayer.csproj", "{8D828FE8-0752-4894-A899-DB2237363CEA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6275E5A-C9A8-4870-BEA9-F4600338BECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6275E5A-C9A8-4870-BEA9-F4600338BECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6275E5A-C9A8-4870-BEA9-F4600338BECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6275E5A-C9A8-4870-BEA9-F4600338BECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C798DC16-F49E-4F12-B4ED-26B93B459C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C798DC16-F49E-4F12-B4ED-26B93B459C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C798DC16-F49E-4F12-B4ED-26B93B459C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C798DC16-F49E-4F12-B4ED-26B93B459C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A4F2000-6582-4B4A-A69A-C6B1E79EACF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A4F2000-6582-4B4A-A69A-C6B1E79EACF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A4F2000-6582-4B4A-A69A-C6B1E79EACF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A4F2000-6582-4B4A-A69A-C6B1E79EACF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2955E47C-B919-4C09-976B-BE5E0CA22535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2955E47C-B919-4C09-976B-BE5E0CA22535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2955E47C-B919-4C09-976B-BE5E0CA22535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2955E47C-B919-4C09-976B-BE5E0CA22535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D828FE8-0752-4894-A899-DB2237363CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D828FE8-0752-4894-A899-DB2237363CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D828FE8-0752-4894-A899-DB2237363CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D828FE8-0752-4894-A899-DB2237363CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A4F2000-6582-4B4A-A69A-C6B1E79EACF4} = {B2801CF9-3BE7-431F-94B4-CE090D72FC3F}
+		{2955E47C-B919-4C09-976B-BE5E0CA22535} = {53D3BC53-5C46-429B-994A-3765B2493E58}
+		{8D828FE8-0752-4894-A899-DB2237363CEA} = {53D3BC53-5C46-429B-994A-3765B2493E58}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {842F0DD2-F482-4192-A3C8-68ECC9C3C8A7}
