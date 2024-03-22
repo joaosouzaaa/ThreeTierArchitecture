@@ -26,4 +26,13 @@
 		<Using Include="Xunit" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="MappersTests\" />
+	  <Folder Include="ExtensionsTests\" />
+	  <Folder Include="SettingsTests\" />
+	  <Folder Include="ServicesTests\" />
+	  <Folder Include="TestBuilders\" />
+	  <Folder Include="ValidatorsTests\" />
+	</ItemGroup>
+
 </Project>

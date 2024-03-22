@@ -5,17 +5,19 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayer", "DataLayer", "{53D3BC53-5C46-429B-994A-3765B2493E58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeTierArchitecture.Presentation", "ThreeTierArchitecture.Presentation\ThreeTierArchitecture.Presentation.csproj", "{E6275E5A-C9A8-4870-BEA9-F4600338BECF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeTierArchitecture.Presentation", "ThreeTierArchitecture.Presentation\ThreeTierArchitecture.Presentation.csproj", "{E6275E5A-C9A8-4870-BEA9-F4600338BECF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B2801CF9-3BE7-431F-94B4-CE090D72FC3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeTierArchitecture.Application", "ThreeTierArchitecture.Application\ThreeTierArchitecture.Application.csproj", "{C798DC16-F49E-4F12-B4ED-26B93B459C3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeTierArchitecture.Application", "ThreeTierArchitecture.Application\ThreeTierArchitecture.Application.csproj", "{C798DC16-F49E-4F12-B4ED-26B93B459C3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{6A4F2000-6582-4B4A-A69A-C6B1E79EACF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{6A4F2000-6582-4B4A-A69A-C6B1E79EACF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeTierArchitecture.DataStore", "ThreeTierArchitecture.DataStore\ThreeTierArchitecture.DataStore.csproj", "{2955E47C-B919-4C09-976B-BE5E0CA22535}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeTierArchitecture.DataStore", "ThreeTierArchitecture.DataStore\ThreeTierArchitecture.DataStore.csproj", "{2955E47C-B919-4C09-976B-BE5E0CA22535}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeTierArchitecture.DataAccessLayer", "ThreeTierArchitecture.DataAccessLayer\ThreeTierArchitecture.DataAccessLayer.csproj", "{8D828FE8-0752-4894-A899-DB2237363CEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeTierArchitecture.DataAccessLayer", "ThreeTierArchitecture.DataAccessLayer\ThreeTierArchitecture.DataAccessLayer.csproj", "{8D828FE8-0752-4894-A899-DB2237363CEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeTierArchutecture.Domain", "ThreeTierArchutecture.Domain\ThreeTierArchutecture.Domain.csproj", "{CB67CEE8-97DB-4DD1-82B4-64557BB20407}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{8D828FE8-0752-4894-A899-DB2237363CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D828FE8-0752-4894-A899-DB2237363CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D828FE8-0752-4894-A899-DB2237363CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB67CEE8-97DB-4DD1-82B4-64557BB20407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB67CEE8-97DB-4DD1-82B4-64557BB20407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB67CEE8-97DB-4DD1-82B4-64557BB20407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB67CEE8-97DB-4DD1-82B4-64557BB20407}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
